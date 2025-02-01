@@ -1,16 +1,83 @@
-# mfa
+# Secure MFA Authenticator
 
-A new Flutter project.
+Eine moderne und sichere Multi-Faktor-Authentifizierungs-App für iOS und Android, entwickelt mit Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Sicherheit & Privatsphäre
+- **100% Offline**: Keine Internetverbindung erforderlich
+- **Keine Cloud**: Alle Daten bleiben auf dem Gerät
+- **Verschlüsselte Speicherung**: Sichere lokale Datenhaltung
+- **Automatische Backups**: Zusätzliche Sicherheit durch lokale Backups
+- **Keine Berechtigungen**: Nur Kamera (für QR) und Audio (für TTS) erforderlich
 
-A few resources to get you started if this is your first Flutter project:
+### Authentifizierung
+- **TOTP-Standard**: RFC 6238 konform
+- **Volle Kompatibilität**: Funktioniert mit allen gängigen 2FA-Diensten
+- **QR-Code Scanner**: Schnelles Hinzufügen neuer Konten
+- **Manuelle Eingabe**: Alternative zum QR-Code
+- **Verschiedene Zeitintervalle**: 30 oder 60 Sekunden
+- **Flexible Codes**: 6 oder 8 Stellen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Benutzerfreundlichkeit
+- **Material 3 Design**: Moderne und intuitive Oberfläche
+- **Dark Mode**: Automatisch oder manuell
+- **Mehrsprachig**: Deutsch und Englisch
+- **Barrierefreiheit**: Vorlesen der Codes (TTS)
+- **Adaptives Layout**: Optimiert für alle Bildschirmgrößen
+- **Backup & Export**: Einfache Datensicherung
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technische Details
+
+### Implementierte Standards
+- Time-Based One-Time Password (TOTP) - RFC 6238
+- HMAC-SHA1 Verschlüsselung
+- Base32-Kodierung (RFC 4648)
+
+### Systemanforderungen
+- iOS 15.5 oder neuer
+- Android 5.0 (API 21) oder neuer
+
+## Installation
+
+Die App ist verfügbar über:
+- App Store (iOS)
+- Google Play Store (Android)
+
+## Datenschutz
+
+- **Keine Werbung**
+- **Keine Analytics**
+- **Keine Tracker**
+- **Keine Benutzerprofile**
+- **Keine Netzwerkkommunikation**
+
+## Entwicklung
+
+Das Projekt verwendet:
+- Flutter & Dart
+- BLoC Pattern für State Management
+- Clean Architecture
+- Material 3 Design System
+
+## Lizenz
+
+Copyright © 2024 Martin Bundschuh
+
+Diese Software ist unter der MIT-Lizenz veröffentlicht.
+
+## Support
+
+Bei Fragen oder Problemen:
+- GitHub Issues
+- E-Mail: [E-Mail-Adresse]
+
+## Changelog
+
+### Version 1.0.0 (2024)
+- Erste öffentliche Version
+- Grundlegende TOTP-Funktionalität
+- QR-Code Scanner
+- Mehrsprachigkeit (DE/EN)
+- Dark Mode
+- Backup-System
