@@ -70,7 +70,7 @@ Diese Software ist unter der MIT-Lizenz veröffentlicht.
 
 Bei Fragen oder Problemen:
 - GitHub Issues
-- E-Mail: [E-Mail-Adresse]
+- E-Mail: [martin@bundschuh.me]
 
 ## Changelog
 
